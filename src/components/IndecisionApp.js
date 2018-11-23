@@ -7,7 +7,7 @@ import OptionModal from './OptionModal'
 
 export default class IndecisionApp extends React.Component {
     state = {
-        options: ['option 1', 'option KILL'],
+        options: [],
         selectedOption: null
     }
 
