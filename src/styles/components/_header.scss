@@ -1,0 +1,22 @@
+.header {
+    background: $off-black;
+    color: white;
+    margin-bottom: $m3-size;
+    padding: $m-size 0;
+}
+
+@media (max-width: 45rem) {
+    .header {
+    margin-bottom: $m-size;
+    }
+}
+
+.header__title {
+    font-size: $m2-size;
+    margin: 0;
+}
+.header__subtitle {
+    color: $off-white;
+    font-size: $m-size;
+    margin: 0;
+}

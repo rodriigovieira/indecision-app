@@ -1,0 +1,73 @@
+.big-button {
+    background-color: $purple;
+    border: none;
+    border-bottom: .6rem solid darken($purple, 10%);
+    color: white;
+    font-weight: bold;
+    font-size: $m2-size; 
+    width: 100%;
+    margin-bottom: $m2-size;
+    padding: 2.4rem;
+}
+
+.big-button:hover {
+    background-color: darken($purple, 10%);
+    border-bottom: .6rem solid darken($purple, 20%);
+}
+
+.big-button-disabled {
+    background-color: $purple;
+    border: none;
+    border-bottom: .6rem solid darken($purple, 10%);
+    color: white;
+    font-weight: bold;
+    font-size: $m2-size; 
+    width: 100%;
+    margin-bottom: $m2-size;
+    padding: 2.4rem;
+    opacity: .5;
+}
+
+// other buttons
+
+.button {
+    background: $purple;
+    border: none;
+    border-bottom: .3rem solid darken($purple, 10%);
+    color: white;
+    font-weight: 500;
+    padding: $s-size;
+}
+
+.button--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+    padding-left: $s-size;
+}
+
+.button--link:hover {
+    color: darken($off-white, 10%);
+}
+
+#creationSubmit {
+    cursor: pointer;
+}
+#creationSubmit:hover {
+    background: darken($purple, 10%);
+    border-bottom: .3rem solid darken($purple, 20%);
+}
+
+// configuration for mobile devices
+
+@media (max-width: 30rem) {
+    .big-button {
+        font-size: 2.8rem;
+        margin-bottom: $m-size;
+    }
+    .big-button-disabled {
+        font-size: 2.8rem;
+        margin-bottom: $m-size;
+    }
+}
